@@ -1,9 +1,9 @@
-/* Resetando o estilo padrão do navegador */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 body {
     font-family: Arial, sans-serif;
@@ -11,8 +11,9 @@ body {
     color: #333;
 }
 
+
 header {
-    background-color: #f0dc9d;
+    background-color:#b68e44;
     color: white;
     padding: 10px 20px;
     display: flex;
@@ -20,18 +21,22 @@ header {
     align-items: center;
 }
 
+
 header h1 {
     font-size: 24px;
 }
+
 
 nav ul {
     list-style-type: none;
     display: flex;
 }
 
+
 nav ul li {
     margin-left: 20px;
 }
+
 
 nav ul li a {
     color: white;
@@ -39,10 +44,12 @@ nav ul li a {
     font-size: 18px;
 }
 
+
 section {
     padding: 20px;
     text-align: center;
 }
+
 
 .carousel {
     position: relative;
@@ -50,15 +57,18 @@ section {
     overflow: hidden;
 }
 
+
 .carousel-images {
     display: flex;
     transition: transform 0.5s ease;
 }
 
+
 .carousel-images img {
     width: 100%;
     height: auto;
 }
+
 
 .carousel-controls {
     position: absolute;
@@ -69,6 +79,7 @@ section {
     transform: translateY(-50%);
 }
 
+
 button {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
@@ -77,9 +88,11 @@ button {
     cursor: pointer;
 }
 
+
 button:hover {
     background-color: rgba(0, 0, 0, 0.7);
 }
+
 
 /* Estilo para os produtos */
 .produtos-list {
@@ -89,6 +102,7 @@ button:hover {
     margin-top: 30px;
 }
 
+
 .produto {
     background-color: white;
     border-radius: 8px;
@@ -97,6 +111,7 @@ button:hover {
     text-align: center;
 }
 
+
 .produto img {
     width: 100%;
     height: 200px;
@@ -104,24 +119,28 @@ button:hover {
     border-radius: 8px;
 }
 
+
 .produto h3 {
     margin-top: 10px;
     font-size: 20px;
 }
 
+
 .produto button {
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #a4dba6;
+    background-color:#b68e44;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
+
 .produto button:hover {
-    background-color: #45a049;
+    background-color: #b68e44;
 }
+
 
 footer {
     background-color: #333;
@@ -132,6 +151,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 
 /* Responsividade */
 @media (max-width: 768px) {
