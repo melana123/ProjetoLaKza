@@ -1,0 +1,4 @@
+git config --global user.name melana123
+git config --global user.email melana.etec@gmail.com
+
+cd ProjetoLaKza
